@@ -5,101 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portafolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-      .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 20%;
-        padding: 1%;
-      }
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #253233;
-      }
-
-      li {
-        float: right;
-      }
-
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        text-decoration: browna;
-      }
-      li a:hover {
-        background-color: #000000;
-      }
-      li {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        font-size: 40px;
-        overflow: hidden;
-        display: block;
-        color: white;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      }
-      h1 {
-        text-align: center;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 80px;
-        margin: 0;
-      }
-      h2 {
-        text-align: center;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 50px;
-        margin: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Enlaza tu archivo CSS externo -->
   </head>
-  <body style="background-color: rgb(238, 235, 235)">
-    <div>
+  <body>
+    <header>
       <nav>
         <ul>
-          <li style="float: left"><a>Portfolio</a></li>
-          <li><a href="#Get In Touch">Home</a></li>
-          <li><a href="#Portfolio">Get In Touch</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
-    </div>
-    <div id="Home">
-      <h1>Bryan Iran Garcia Gutiérrez</h1>
-      <h2>Network Engineer || Java Developer || CyberSecurity Analyst</h2>
-      <img src="image/iran.jpg" alt="Iran garcia" class="center" />
-      <h1 style="font-size: 50px; text-align: left">
-        About Me
-        <h2 style="font-size: 30px; justify-content; text-align: left; ">
-          I am a network engineer with two years of experience providing L1,
-          L1.5, and L2 support, and one year of experience in software
-          development using Java. I have knowledge in coding using Java, C++,
-          Python, and PHP, as well as in cybersecurity, which I gained through
-          the Cybersecurity Pathway from Cisco. I also have knowledge in
-          routing, switching, and skills from the CNNA program as part of my
-          degree in Network Engineering from the University of Guadalajara.
-          Currently, I am interning at CTA (Unit of Instructional Multimedia) at
-          the University of Guadalajara.
-        </h2>
-      </h1>
-      <br>
-      <br><br>
-     <hr>
-     <br>
-     <hr>
-     <br>
-     <br>
-      
-    </div>
-    <div id="Portfolio"">
-      <h1 style="font-size: 50px; text-align: left">
-       <a class="Portfolio"">Portfolio</a>
+    </header>
 
-    </div >
+    <section id="Home">
+      <h1>Bryan Iran Garcia Gutiérrez</h1>
+      <h2>Network Engineer | Java Developer | Cybersecurity Analyst</h2>
+      <img src="image/iran.jpg" alt="Iran Garcia" class="center" />
+      <div class="about-me">
+        <div id="network-engineer-description">
+          <h2 style="background-color: #000000; color:white">About Me - Network Engineer</h2>
+          <p>
+            Hello, I am a network engineer with a strong background in providing
+            technical support and software development. I have two years of
+            experience in offering L1, L1.5, and L2 support, ensuring the smooth
+            operation of network infrastructure. Additionally, I have one year
+            of experience in software development, specializing in Java.
+          </p>
+
+          <div id="programming-skills">
+            <h3>Programming Skills</h3>
+            <p>
+              I am proficient in various programming languages, including Java,
+              C++, Python, and PHP. These languages enable me to develop
+              efficient and reliable software solutions to meet diverse business
+              needs. Furthermore, my knowledge in cybersecurity, obtained
+              through the Cybersecurity Pathway from Cisco, allows me to
+              implement secure coding practices and protect digital assets.
+            </p>
+          </div>
+
+          <div id="networking-skills">
+            <h3>Networking Skills</h3>
+            <p>
+              In addition to my software development skills, I possess expertise
+              in networking principles. I have a solid foundation in routing and
+              switching, acquired through the CCNA program as part of my degree
+              in Network Engineering from the University of Guadalajara. This
+              knowledge enables me to design and manage robust network
+              infrastructures that facilitate seamless communication and data
+              transfer.
+            </p>
+          </div>
+
+          <div id="internship-experience">
+            <h3>Internship Experience</h3>
+            <p>
+              Currently, I am interning at the CTA (Unit of Instructional
+              Multimedia) at the University of Guadalajara. This opportunity
+              allows me to further enhance my technical skills and gain hands-on
+              experience in implementing innovative solutions. It also provides
+              me with exposure to collaborative environments and the opportunity
+              to work on cutting-edge projects.
+            </p>
+          </div>
+
+          <p>
+            As a dedicated network engineer, I am passionate about leveraging my
+            skills and experience to optimize network performance and enhance
+            cybersecurity measures. I am committed to continuous learning and
+            staying updated with the latest industry trends. I am eager to
+            contribute my expertise to impactful projects and drive
+            technological advancements.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Portfolio">
+      <h2 style="background-color: #000000; color:white">Portfolio</h2>
+      <div class="project">
+        <h3 style="background-color: #000000; color:white">Portfolio Web</h3>
+        <p>
+          This project is my own web portfolio, designed and developed using
+          HTML and CSS. The main objective of the portfolio is to showcase my
+          skills, experience, and notable projects in an attractive and
+          accessible manner.
+        </p>
+        <p>
+          The portfolio design focuses on usability and aesthetics, employing a
+          combination of elegant colors and a clean, modern layout. The
+          portfolio structure is organized into clear sections, such as the home
+          page, project section, and contact information.
+        </p>
+        <p>
+          Regarding development, best practices of HTML and CSS have been
+          utilized to ensure clean and optimized code. Semantic HTML has been
+          employed to enhance accessibility and search engine indexing.
+          Additionally, CSS has been applied to add custom styles, such as
+          typography, colors, grid layouts, and subtle visual effects.
+        </p>
+        <p>
+          Through my web portfolio, visitors can explore my personal
+          information, learn about my skills and projects, and get in touch with
+          me for job opportunities or collaborations. I have also ensured that
+          the portfolio is responsive, meaning it adapts and looks great on
+          different devices and screen sizes.
+        </p>
+        <p>
+          This web portfolio project represents my passion for web design and
+          development, as well as my dedication to showcasing my skills and
+          accomplishments to potential employers or clients. I am proud to have
+          created my own portfolio and excited to share it with the world.
+        </p>
+        <center style="background-color: #9a98986b;"><a style="color:black; font-size: 50px;" href="#"">View Project</a></center>
+      </div>
+
+      <div class="project">
+        <h3 style="background-color: #000000; color:white">Project 2</h3>
+        <p>Description of the project goes here...</p>
+        <a href="project2.html">View Project</a>
+      </div>
+    </section>
+    <section id="Contact">
+      <h2>Contact</h2>
+      <!-- Agrega tu información de contacto aquí -->
+    </section>
+
+    <script src="script.js"></script>
+    <!-- Enlaza tu archivo JavaScript externo si es necesario -->
   </body>
 </html>
